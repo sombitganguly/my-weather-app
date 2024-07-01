@@ -49,8 +49,8 @@ return (
     <span className='text-l md:text-2xl'>Wind Speed: {data.wind?.speed}m/s</span><br></br>
     <span className='text-l md:text-2xl'>Wind Direction: {data.wind?.deg}°</span>
     </h1>
-    <h1 className='text-xl md:text-3xl col-span-2 md:col-span-1'>Humidity: {data.main?.humidity}%</h1>
-    <h1 className='text-xl md:text-3xl'>Pressure: {data.main?.pressure}mb</h1>
+    <h1 className='text-l md:text-3xl col-span-2 md:col-span-1'>Humidity: {data.main?.humidity}%</h1>
+    <h1 className='text-l md:text-3xl'>Pressure: {data.main?.pressure}mb</h1>
     </div>
     </div>
 
